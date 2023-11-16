@@ -1,15 +1,7 @@
-
-import Image from 'next/image'
-
+import React from 'react'
 
 export default function Home() {
-    const trail= () =>{
-
-    }
-    return (
-        <main className="">
-            <h1>Hello</h1>
-                <button>Click Me</button>
-        </main>
-    )
+  return (
+    <div>This is Home page</div>
+  )
 }
