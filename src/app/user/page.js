@@ -1,8 +1,13 @@
 import React from 'react'
 
 export default function User() {
+  console.log(process.env)
   return (
-    <div>User</div>
+    <div className='learning'>
+      <h1>Uer detail page</h1>
+
+    </div>
+    
   )
 }
 
