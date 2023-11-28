@@ -10,6 +10,7 @@ export default function Home() {
     return (
         <main className="">
             <Image src={Profile} alt='' />
+            <p>Creating API</p>
 
         </main>
     )
