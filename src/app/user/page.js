@@ -5,7 +5,7 @@ export default function User() {
   return (
     <div className='learning'>
       <h1>Uer detail page</h1>
-      <p>Testing</p>
+
     </div>
     
   )
