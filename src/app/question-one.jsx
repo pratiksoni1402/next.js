@@ -23,6 +23,7 @@ export default function OpacityAnimation() {
         variants={boxVariant}
         initial="initial"
         animate="animation"
+        exit={{ opacity: 0 }}
       />
     </div>
   )
