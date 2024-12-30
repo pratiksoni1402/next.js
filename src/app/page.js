@@ -4,6 +4,7 @@ import FramerBasics from '@/app/framer-basics'
 import Variants from '@/app/variants'
 import KeyFrameAnimations from '@/app/keyframe-animations'
 import OpacityAnimation from '@/app/question-one'
+import LayoutAnimation from '@/app/layout-animation'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Variants />
       <KeyFrameAnimations />
       <OpacityAnimation />
+      <LayoutAnimation />
     </div>
   )
 }
